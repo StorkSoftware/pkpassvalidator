@@ -1,7 +1,7 @@
 ﻿using System.CommandLine;
 using PassValidator.Console;
 
-var rootCommand = new RootCommand("A minimal console app with command line parsing");
+var rootCommand = new RootCommand("A console app to validate Apple Wallet passes (.pkpass files)");
 
 var pathArgument = new Argument<string>("path", "Path to the pkpass file");
 rootCommand.AddArgument(pathArgument);
