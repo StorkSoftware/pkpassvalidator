@@ -11,6 +11,10 @@ Questions pop up on StackOverflow about invalid passes and the cause, usually, i
 ## Where is it hosted?
 The project is available at https://pkpassvalidator.azurewebsites.net and can be used right now. I'll extend its capabilities over time.
 
+## Can I validate my pass on the command line?
+
+Yes, solution contains PassValidator.Console project that builds `pkpassvalidator` binary that can be used to validate pkpass files locally. Run the command without any arguments to see its usage. Binary's return code is 0 if the pass is valid. Non-zero return codes indicate validation errors.
+
 ## Support the project
 If you find this utility useful and would like to contibute towards the hosting costs, please consider donating by buying me a coffee
 
